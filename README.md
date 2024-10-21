@@ -3,6 +3,7 @@
 </p>
 
 ---
+
 # [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
 
 ---
@@ -124,7 +125,7 @@ export const personalData = {
   address: "Dhaka, Bangladesh",
   github: "https://github.com/said7388",
   facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
+  linkedIn: "https://www.linkedin.com/in/achraf-laghlab-ab2398220/",
   twitter: "https://twitter.com/said7388",
   stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
   leetcode: "https://leetcode.com/said3812/",
