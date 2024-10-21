@@ -12,7 +12,7 @@ export const personalData = {
   linkedIn: "https://www.linkedin.com/in/achraf-laghlab-ab2398220/",
   twitter: "https://twitter.com/said7388",
   stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
+  leetcode: "https://leetcode.com/u/achraf047/",
   devUsername: "said7388",
   resume:
     "https://drive.google.com/file/d/159L3AnnQ9FpY6atUu5TcYqKlqwCtHR7e/view?usp=sharing",

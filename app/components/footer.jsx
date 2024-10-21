@@ -15,7 +15,7 @@ function Footer() {
             © Developer Portfolio by{" "}
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/achraf-laghlab-ab2398220/"
+              href="https://github.com/said7388/developer-portfolio"
               className="text-[#16f2b3]"
             >
               Abu Said

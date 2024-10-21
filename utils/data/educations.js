@@ -1,20 +1,21 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Computer Engineering",
+    duration: "2021 - 2024",
+    institution:
+      "International Mohammed VI Academy of Civil Aviation, Casablanca",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Preparatory Classes in Technology and Industrial Sciences",
+    duration: "2019 - 2021",
+    institution: "Moulay Abdeallah High School, Safi",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+    title: "Baccalaureate in Electrical Sciences and Technologies",
+    duration: "2018 - 2019",
+    institution: "Mohammed VI High School, Marrakech",
+  },
+];

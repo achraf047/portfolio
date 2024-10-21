@@ -1,20 +1,26 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: "Software Engineer (Final Year Internship)",
+    company: "Astek",
+    duration: "(April 2024 - September 2024, Casablanca)",
+    description:
+      "Developed features for a carbon footprint simulation app, including authentication, access rights, form input, and dashboard. Deployed applications using Docker and integrated continuous delivery via GitLab CI/CD.",
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "Full-Stack Developer (Technical Internship)",
+    company: "IS-TECH",
+    duration: "(June 2023 - August 2023, Casablanca)",
+    description:
+      "Developed a personnel management application with CRUD operations and MySQL database. Deployed efficiently using Docker.",
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
-  }
-]
+    title: "Assistant Logistic Coordinator (Worker Internship)",
+    company: "Swissport",
+    duration: "(July 2022 - August 2022, Marrakech)",
+    description:
+      "Participated in flight coordination and baggage handling operations.",
+  },
+];

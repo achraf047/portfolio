@@ -1,62 +1,61 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
-
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-        image: realEstate,
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+  {
+    id: 1,
+    name: "Carbon Footprint Simulation App",
+    description:
+      "Developed as part of my final year internship at Astek, this app allows companies to simulate and track their employees’ carbon footprints. I worked on features such as authentication, access rights, form input for data collection, and a dashboard for data visualization. The project also involved deploying the application with Docker and setting up continuous integration/delivery with GitLab CI/CD.",
+    tools: [
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "PostgreSQL",
+      "Azure AD",
+      "GitLab CI/CD",
+      "Docker",
+      "JUnit",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 2,
+    name: "Personnel Management System",
+    description:
+      "During my technical internship at IS-TECH, I developed a full-stack application for personnel management. The system featured CRUD operations for managing employee records, with a MySQL database. The app was efficiently deployed using Docker, ensuring seamless integration and delivery.",
+    tools: ["Java", "Spring Boot", "Angular", "MySQL", "Docker"],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 3,
+    name: "E-commerce Website Testing Automation",
+    description:
+      "For an academic project, I automated the testing process for an e-commerce website. Using Robot Framework and Selenium, I set up automated tests for key functionalities and integrated JIRA for test management. The tests ensured the website was running smoothly across various user journeys.",
+    tools: ["Robot Framework", "Selenium", "JIRA"],
+    role: "Test Automation Engineer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 4,
+    name: "Employee Management System",
+    description:
+      "This academic project involved the development of a set of REST APIs using Java, JPA, and PostgreSQL for managing employee data. I implemented CRUD operations and ensured efficient data management.",
+    tools: ["Java", "JPA", "PostgreSQL"],
+    role: "Backend Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 5,
+    name: "Employee Directory Application on AWS",
+    description:
+      "In this personal project, I managed AWS resources, including IAM roles and cost optimization. I used EC2 for virtual instances, configured VPC for isolated networks, and employed S3 for object storage, integrating DynamoDB for database management.",
+    tools: ["AWS EC2", "VPC", "S3", "DynamoDB"],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+  },
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
