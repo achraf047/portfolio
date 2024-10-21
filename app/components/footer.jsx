@@ -12,24 +12,16 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Developer Portfolio by{" "}
+            ©Template of Portfolio from this{" "}
             <Link
               target="_blank"
               href="https://github.com/said7388/developer-portfolio"
               className="text-[#16f2b3]"
             >
-              Abu Said
+              repo
             </Link>
           </p>
           <div className="flex items-center gap-5">
-            <Link
-              target="_blank"
-              href="https://github.com/said7388/developer-portfolio"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
-            >
-              <IoStar />
-              <span>Star</span>
-            </Link>
             <Link
               target="_blank"
               href="https://github.com/said7388/developer-portfolio/fork"
