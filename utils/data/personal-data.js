@@ -1,9 +1,9 @@
 export const personalData = {
   name: "LAGHLAB ACHRAF",
   profile: "/myprofile.jpeg",
-  designation: "Software Developer",
+  designation: "Software Engineer",
   description:
-    "My name is LAGHLAB ACHRAF. I’m a passionate software engineer with nearly one year of experience specializing in building web applications using technologies like Java, Angular, and Spring Boot. I focus on delivering efficient, scalable, and innovative solutions.",
+    "My name is LAGHLAB ACHRAF. I’m a passionate software engineer with nearly one year of experience specializing in building web applications using technologies like Java, Angular, ReactJS and Spring Boot. I focus on delivering efficient, scalable, and innovative solutions.",
   email: "laghlab.achraf.pro@gmail.com",
   phone: "+212688651723",
   address: "Casablanca,Morocco",
